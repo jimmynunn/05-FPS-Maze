@@ -1,0 +1,11 @@
+newmtl Color_A07
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd Indiana University Logo_diffuse.tga
+map_Ks Indiana University Logo_roughness.tga
+map_bump Indiana University Logo_normal_map.tga

@@ -1,0 +1,76 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://UI/Main.gd" type="Script" id=1]
+[ext_resource path="res://Assets/xolonium/Xolonium.tres" type="DynamicFont" id=2]
+[ext_resource path="res://Assets/kirifont/KiriFont.otf" type="DynamicFontData" id=3]
+
+[sub_resource type="DynamicFont" id=1]
+size = 90
+font_data = ExtResource( 3 )
+
+[node name="Main" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+
+[node name="Background" type="ColorRect" parent="."]
+margin_right = 1024.0
+margin_bottom = 600.0
+color = Color( 0.105882, 0.0784314, 0.0784314, 1 )
+
+[node name="Label" type="Label" parent="."]
+margin_left = -4.0
+margin_top = -16.0
+margin_right = 1020.0
+margin_bottom = 284.0
+rect_pivot_offset = Vector2( 131, 14 )
+custom_fonts/font = SubResource( 1 )
+text = "Terror
+"
+align = 1
+valign = 1
+uppercase = true
+
+[node name="Label2" type="Label" parent="."]
+margin_left = -40.0
+margin_top = 78.0
+margin_right = 1086.0
+margin_bottom = 318.0
+rect_pivot_offset = Vector2( 131, 14 )
+custom_fonts/font = ExtResource( 2 )
+text = "Warning. Screamers, and 
+jumpscares. Do not touch the zombies
+"
+align = 1
+valign = 1
+uppercase = true
+
+[node name="Label3" type="Label" parent="."]
+margin_left = -47.0
+margin_top = 424.0
+margin_right = 1079.0
+margin_bottom = 664.0
+rect_pivot_offset = Vector2( 131, 14 )
+custom_fonts/font = ExtResource( 2 )
+text = "Bonus: Find the iu picture
+"
+align = 1
+valign = 1
+uppercase = true
+
+[node name="Play" type="Button" parent="."]
+margin_left = 430.0
+margin_top = 260.0
+margin_right = 590.0
+margin_bottom = 324.0
+text = "Play Game"
+
+[node name="Quit" type="Button" parent="."]
+margin_left = 445.0
+margin_top = 381.0
+margin_right = 570.0
+margin_bottom = 431.0
+text = "Quit"
+
+[connection signal="pressed" from="Play" to="." method="_on_Play_pressed"]
+[connection signal="pressed" from="Quit" to="." method="_on_Quit_pressed"]

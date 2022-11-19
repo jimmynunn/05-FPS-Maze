@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Screamer noise.mp3-cf86fbf71938469d5b70943e605e31d2.mp3str"
+
+[deps]
+
+source_file="res://Assets/Screamer noise.mp3"
+dest_files=[ "res://.import/Screamer noise.mp3-cf86fbf71938469d5b70943e605e31d2.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

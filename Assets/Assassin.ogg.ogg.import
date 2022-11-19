@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Assassin.ogg.ogg-e240fd3833c4a1811dc84feba28bf0a5.oggstr"
+
+[deps]
+
+source_file="res://Assets/Assassin.ogg.ogg"
+dest_files=[ "res://.import/Assassin.ogg.ogg-e240fd3833c4a1811dc84feba28bf0a5.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

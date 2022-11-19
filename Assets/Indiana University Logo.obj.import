@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Indiana University Logo.obj-84b2b613e2e6bbb5b5c616448eab417f.mesh"
+
+[deps]
+
+files=[ "res://.import/Indiana University Logo.obj-84b2b613e2e6bbb5b5c616448eab417f.mesh" ]
+
+source_file="res://Assets/Indiana University Logo.obj"
+dest_files=[ "res://.import/Indiana University Logo.obj-84b2b613e2e6bbb5b5c616448eab417f.mesh", "res://.import/Indiana University Logo.obj-84b2b613e2e6bbb5b5c616448eab417f.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286
